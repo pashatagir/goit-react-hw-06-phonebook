@@ -1,6 +1,6 @@
 import { Label, Input } from '../Phonebook/Phonebook.styled';
 import { useDispatch } from 'react-redux';
-import { filteredContacts } from 'redux/filterSlice';
+import { filteredContacts } from 'redux/contactsSlice';
 
 const Filter = () => {
   const dispatch = useDispatch();
